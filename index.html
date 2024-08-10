@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Birthday Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mob_css.css" class="css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Birthday Reminder App</h1>
+        </header>
+        <div class="searchBox">
+            <label for="input">Search Birthday :- </label>
+            <input type="text" id="searchInput" placeholder="Search Birthday by Name">
+        </div>
+        <div class="showAddButton">
+            <button id="toggleFormBtn">Add Birthday</button>
+        </div>
+        <div class="formBox">
+            <form id="birthdayForm" class="center">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="date" id="date" required>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        <div class="BList">
+            <ul id="birthdayList"></ul>
+        </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>

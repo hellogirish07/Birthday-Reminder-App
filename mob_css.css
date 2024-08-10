@@ -1,0 +1,39 @@
+@media (max-width : 600px) {
+    body {
+        background-color: pink;
+    }
+
+    header h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .searchBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .searchBox #searchInput {
+        width: 80%;
+    }
+
+    .searchBox label, .searchBox input, form input {
+        font-size: 20px;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    ul {
+        width: 80%;
+    }
+
+    li {
+        font-size: 17px;
+    }
+
+    i {
+        font-size: 17px;
+    }
+}
